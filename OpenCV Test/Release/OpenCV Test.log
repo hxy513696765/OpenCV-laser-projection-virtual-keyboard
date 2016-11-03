@@ -1,0 +1,31 @@
+﻿生成启动时间为 2014-4-19 小❤牛:19:14:08。
+     1>项目“D:\学习\VC++\OpenCV Test\OpenCV Test\OpenCV Test.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\OpenCV Test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Code.cpp
+         Code.cpp
+     1>Code.cpp(68): warning C4101: “mapx”: 未引用的局部变量
+     1>Code.cpp(69): warning C4101: “mapy”: 未引用的局部变量
+     1>Code.cpp(214): warning C4018: “<”: 有符号/无符号不匹配
+     1>Code.cpp(225): warning C4018: “<”: 有符号/无符号不匹配
+     1>Code.cpp(248): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Code.cpp(256): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Code.cpp(196): warning C4101: “subkeypress”: 未引用的局部变量
+     1>Code.cpp(653): warning C4018: “<”: 有符号/无符号不匹配
+     1>Code.cpp(663): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\学习\VC++\OpenCV Test\Release\OpenCV Test.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_haartraining_engine.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_nonfree246.lib opencv_objdetect246.lib opencv_ocl246.lib opencv_photo246.lib opencv_stitching246.lib opencv_superres246.lib opencv_ts246.lib opencv_video246.lib opencv_videostab246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\OpenCV Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\学习\VC++\OpenCV Test\Release\OpenCV Test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\学习\VC++\OpenCV Test\Release\OpenCV Test.lib" /MACHINE:X86 Release\Code.obj
+         正在生成代码
+         已完成代码的生成
+         OpenCV Test.vcxproj -> D:\学习\VC++\OpenCV Test\Release\OpenCV Test.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\学习\VC++\OpenCV Test\Release\OpenCV Test.exe;#1" /manifest "Release\OpenCV Test.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\OpenCV Test.unsuccessfulbuild”。
+         正在对“Release\OpenCV Test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\学习\VC++\OpenCV Test\OpenCV Test\OpenCV Test.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.35
